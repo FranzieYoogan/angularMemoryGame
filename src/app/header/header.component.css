@@ -18,6 +18,18 @@
 .logout {
 
     display: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+    box-shadow: 0px 0px 4px 0px black;
+    transition: 1s;
+}
+
+.logout:hover {
+
+transform: scale(1.2);
+rotate: 10deg;
 
 }
 
