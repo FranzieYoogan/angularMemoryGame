@@ -1,0 +1,22 @@
+.brainIcon {
+
+    width: 40px;
+    margin-right: 1em;
+    border: 1px solid white !important;
+    box-shadow: 2px 2px 1px 1px black;
+    border-radius: 40px;
+}
+
+.navbar-brand {
+
+    font-weight: 900 !important;
+    color: white !important;
+    text-shadow: 3px 3px 3px black;
+
+}
+
+.navbar {
+
+    background-color: pink !important;
+    border-bottom: 2px solid black;
+}
