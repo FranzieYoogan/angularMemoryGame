@@ -1,0 +1,32 @@
+.containerAll {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.containerError {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.logged {
+
+display: none;
+}
+
+.error {
+
+    display: none;
+
+}
+
+.containerItems {
+
+  
+    margin-top: 3em;
+
+}
+
