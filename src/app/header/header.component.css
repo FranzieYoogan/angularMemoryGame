@@ -15,6 +15,12 @@
 
 }
 
+.logout {
+
+    display: none;
+
+}
+
 .navbar {
 
     background-color: pink !important;

@@ -47,11 +47,24 @@ export class LoginComponent implements OnInit {
    
         console.log(this.data[z].user_email)
         logged.style.display = 'block'
+        setTimeout(() => {
+
+          localStorage.setItem("user", this.data[z].user_name);
+
+          window.location.href = "http://localhost:4200/game"
+
+        }, 2000);
   
     } else {
 
       console.log("error")
       error.style.display = "block"
+
+      setTimeout(() => {
+
+        window.location.href = "http://localhost:4200/"
+
+      }, 2000);
 
     }
 
