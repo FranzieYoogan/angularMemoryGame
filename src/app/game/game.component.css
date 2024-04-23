@@ -36,7 +36,7 @@
 .color3 {
 
     display: none;
-    color: black;
+  
 }
 
 .containerColors {
@@ -47,3 +47,13 @@
 gap: 2em;
 }
 
+.sessionStyle {
+
+    font-weight: 900;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-left: 0.5em;
+    margin-top: 0.3em;
+    
+
+}

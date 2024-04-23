@@ -62,23 +62,26 @@ export class GameComponent implements OnInit {
           colorT1 = "purple";
           color11.style.display= "block"
           color11.innerHTML = "purple"
+          color11.style.backgroundColor= "purple"
           color11.style.color = "purple"
           console.log("color1" , colorT1)
         } if(color1 == 2) {
 
-          colorT1 = "pink";
-          color11.style.display= "block"
-          color11.innerHTML = "pink"
-          color11.style.color = "pink"
+          colorT2 = "black";
+          color22.style.display= "block"
+          color22.innerHTML = "black"
+          color22.style.backgroundColor= "black"
+          color22.style.color = "black"
           console.log("color1" , colorT1)
         
 
       } if(color1 == 3) {
 
-        colorT1 = "black";
-        color11.style.display= "block"
-        color11.innerHTML = "black"
-        color11.style.color = "black"
+        colorT3 = "black";
+        color33.style.display= "block"
+        color33.innerHTML = "black"
+        color33.style.backgroundColor= "black"
+        color33.style.color = "black"
         console.log("color1" , colorT1)
       }
 
@@ -88,26 +91,29 @@ export class GameComponent implements OnInit {
 
       if(color2 == 1) {
 
-        colorT2 = "black";
-        color22.style.display= "block"
-        color22.innerHTML = "black"
-        color22.style.color = "black"
+        colorT1 = "black";
+        color11.style.display= "block"
+        color11.innerHTML = "black"
+        color11.style.backgroundColor= "black"
+        color11.style.color = "black"
         console.log("color2" , colorT2)
       } if(color2 == 2) {
 
         colorT2 = "pink";
         color22.style.display= "block"
         color22.innerHTML = "pink"
+        color22.style.backgroundColor= "pink"
         color22.style.color = "pink"
         console.log("color2" , colorT2)
       
 
     } if(color2 == 3) {
 
-      colorT2 = "purple";
-      color22.style.display= "block"
-      color22.innerHTML = "purple"
-      color22.style.color = "purple"
+      colorT3 = "pink";
+      color33.style.display= "block"
+      color33.innerHTML = "pink"
+      color33.style.backgroundColor= "pink"
+      color33.style.color = "pink"
       console.log("color2" , colorT2)
     }
 
@@ -118,17 +124,19 @@ export class GameComponent implements OnInit {
 
     if(color3 == 1) {
 
-      colorT3 = "pink";
-      color33.style.display= "block"
-      color33.innerHTML = "pink"
-      color33.style.color = "pink"
+      colorT1 = "pink";
+      color11.style.display= "block"
+      color11.innerHTML = "pink"
+      color11.style.color = "pink"
+      color11.style.backgroundColor= "pink"
       console.log("color3" , colorT3)
     } if(color3 == 2) {
 
-      colorT3 = "black";
-      color33.style.display= "block"
-      color33.innerHTML = "purple"
-      color33.style.color = "purple"
+      colorT2 = "purple";
+      color22.style.display= "block"
+      color22.innerHTML = "purple"
+      color22.style.backgroundColor= "purple"
+      color22.style.color = "purple"
       console.log("color3" , colorT3)
     
 
@@ -136,13 +144,19 @@ export class GameComponent implements OnInit {
 
     colorT3 = "purple";
     color33.style.display= "block"
-    color33.innerHTML = "black"
-    color33.style.color = "black"
+    color33.innerHTML = "purple"
+    color33.style.backgroundColor= "purple"
+    color33.style.color = "purple"
     console.log("color3" , colorT3)
   }
         
       }, 300);
 
+
+
+
+
+
       setTimeout(() => {
 
         color1 =   Math.floor((Math.random() * 4));
@@ -156,23 +170,26 @@ export class GameComponent implements OnInit {
           colorT1 = "purple";
           color11.style.display= "block"
           color11.innerHTML = "purple"
+          color11.style.backgroundColor= "purple"
           color11.style.color = "purple"
           console.log("color1" , colorT1)
         } if(color1 == 2) {
 
-          colorT1 = "pink";
-          color11.style.display= "block"
-          color11.innerHTML = "pink"
-          color11.style.color = "pink"
+          colorT2 = "black";
+          color22.style.display= "block"
+          color22.innerHTML = "black"
+          color22.style.backgroundColor= "black"
+          color22.style.color = "black"
           console.log("color1" , colorT1)
         
 
       } if(color1 == 3) {
 
-        colorT1 = "black";
-        color11.style.display= "block"
-        color11.innerHTML = "black"
-        color11.style.color = "black"
+        colorT3 = "black";
+        color33.style.display= "block"
+        color33.innerHTML = "black"
+        color33.style.backgroundColor= "black"
+        color33.style.color = "black"
         console.log("color1" , colorT1)
       }
 
@@ -182,26 +199,29 @@ export class GameComponent implements OnInit {
 
       if(color2 == 1) {
 
-        colorT2 = "black";
-        color22.style.display= "block"
-        color22.innerHTML = "black"
-        color22.style.color = "black"
+        colorT1 = "black";
+        color11.style.display= "block"
+        color11.innerHTML = "black"
+        color11.style.backgroundColor= "black"
+        color11.style.color = "black"
         console.log("color2" , colorT2)
       } if(color2 == 2) {
 
         colorT2 = "pink";
         color22.style.display= "block"
         color22.innerHTML = "pink"
+        color22.style.backgroundColor= "pink"
         color22.style.color = "pink"
         console.log("color2" , colorT2)
       
 
     } if(color2 == 3) {
 
-      colorT2 = "purple";
-      color22.style.display= "block"
-      color22.innerHTML = "purple"
-      color22.style.color = "purple"
+      colorT3 = "black";
+      color33.style.display= "block"
+      color33.innerHTML = "black"
+      color33.style.backgroundColor= "black"
+      color33.style.color = "black"
       console.log("color2" , colorT2)
     }
 
@@ -212,17 +232,19 @@ export class GameComponent implements OnInit {
 
     if(color3 == 1) {
 
-      colorT3 = "pink";
-      color33.style.display= "block"
-      color33.innerHTML = "pink"
-      color33.style.color = "pink"
+      colorT1 = "pink";
+      color11.style.display= "block"
+      color11.innerHTML = "pink"
+      color11.style.color = "pink"
+      color11.style.backgroundColor= "pink"
       console.log("color3" , colorT3)
     } if(color3 == 2) {
 
-      colorT3 = "black";
-      color33.style.display= "block"
-      color33.innerHTML = "purple"
-      color33.style.color = "purple"
+      colorT2 = "purple";
+      color22.style.display= "block"
+      color22.innerHTML = "purple"
+      color22.style.backgroundColor= "purple"
+      color22.style.color = "purple"
       console.log("color3" , colorT3)
     
 
@@ -230,13 +252,16 @@ export class GameComponent implements OnInit {
 
     colorT3 = "purple";
     color33.style.display= "block"
-    color33.innerHTML = "black"
-    color33.style.color = "black"
+    color33.innerHTML = "purple"
+    color33.style.backgroundColor= "purple"
+    color33.style.color = "purple"
     console.log("color3" , colorT3)
   }
         
       }, 500);
 
+
+
       setTimeout(() => {
 
         color1 =   Math.floor((Math.random() * 4));
@@ -250,23 +275,26 @@ export class GameComponent implements OnInit {
           colorT1 = "purple";
           color11.style.display= "block"
           color11.innerHTML = "purple"
+          color11.style.backgroundColor= "purple"
           color11.style.color = "purple"
           console.log("color1" , colorT1)
         } if(color1 == 2) {
 
-          colorT1 = "pink";
-          color11.style.display= "block"
-          color11.innerHTML = "pink"
-          color11.style.color = "pink"
+          colorT2 = "pink";
+          color22.style.display= "block"
+          color22.innerHTML = "pink"
+          color22.style.backgroundColor= "pink"
+          color22.style.color = "pink"
           console.log("color1" , colorT1)
         
 
       } if(color1 == 3) {
 
-        colorT1 = "black";
-        color11.style.display= "block"
-        color11.innerHTML = "black"
-        color11.style.color = "black"
+        colorT3 = "purple";
+        color33.style.display= "block"
+        color33.innerHTML = "purple"
+        color33.style.backgroundColor= "purple"
+        color33.style.color = "purple"
         console.log("color1" , colorT1)
       }
 
@@ -276,26 +304,29 @@ export class GameComponent implements OnInit {
 
       if(color2 == 1) {
 
-        colorT2 = "black";
-        color22.style.display= "block"
-        color22.innerHTML = "black"
-        color22.style.color = "black"
+        colorT1 = "black";
+        color11.style.display= "block"
+        color11.innerHTML = "black"
+        color11.style.backgroundColor= "black"
+        color11.style.color = "black"
         console.log("color2" , colorT2)
       } if(color2 == 2) {
 
-        colorT2 = "pink";
+        colorT2 = "purple";
         color22.style.display= "block"
-        color22.innerHTML = "pink"
-        color22.style.color = "pink"
+        color22.innerHTML = "purple"
+        color22.style.backgroundColor= "purple"
+        color22.style.color = "purple"
         console.log("color2" , colorT2)
       
 
     } if(color2 == 3) {
 
-      colorT2 = "purple";
-      color22.style.display= "block"
-      color22.innerHTML = "purple"
-      color22.style.color = "purple"
+      colorT3 = "pink";
+      color33.style.display= "block"
+      color33.innerHTML = "pink"
+      color33.style.backgroundColor= "pink"
+      color33.style.color = "pink"
       console.log("color2" , colorT2)
     }
 
@@ -306,28 +337,33 @@ export class GameComponent implements OnInit {
 
     if(color3 == 1) {
 
-      colorT3 = "pink";
-      color33.style.display= "block"
-      color33.innerHTML = "pink"
-      color33.style.color = "pink"
+      colorT1 = "pink";
+      color11.style.display= "block"
+      color11.innerHTML = "pink"
+      color11.style.color = "pink"
+      color11.style.backgroundColor= "pink"
       console.log("color3" , colorT3)
     } if(color3 == 2) {
 
-      colorT3 = "black";
-      color33.style.display= "block"
-      color33.innerHTML = "purple"
-      color33.style.color = "purple"
+      colorT2 = "black";
+      color22.style.display= "block"
+      color22.innerHTML = "black"
+      color22.style.backgroundColor= "black"
+      color22.style.color = "black"
       console.log("color3" , colorT3)
     
 
   } if(color3 == 3) {
 
-    colorT3 = "purple";
+    colorT3 = "black";
     color33.style.display= "block"
     color33.innerHTML = "black"
+    color33.style.backgroundColor= "black"
     color33.style.color = "black"
     console.log("color3" , colorT3)
   }
+
+
         
       }, 700);
 
@@ -346,23 +382,26 @@ export class GameComponent implements OnInit {
           colorT1 = "purple";
           color11.style.display= "block"
           color11.innerHTML = "purple"
+          color11.style.backgroundColor= "purple"
           color11.style.color = "purple"
           console.log("color1" , colorT1)
         } if(color1 == 2) {
 
-          colorT1 = "pink";
-          color11.style.display= "block"
-          color11.innerHTML = "pink"
-          color11.style.color = "pink"
+          colorT2 = "purple";
+          color22.style.display= "block"
+          color22.innerHTML = "purple"
+          color22.style.backgroundColor= "purple"
+          color22.style.color = "purple"
           console.log("color1" , colorT1)
         
 
       } if(color1 == 3) {
 
-        colorT1 = "black";
-        color11.style.display= "block"
-        color11.innerHTML = "black"
-        color11.style.color = "black"
+        colorT3 = "black";
+        color33.style.display= "block"
+        color33.innerHTML = "black"
+        color33.style.backgroundColor= "black"
+        color33.style.color = "black"
         console.log("color1" , colorT1)
       }
 
@@ -372,26 +411,29 @@ export class GameComponent implements OnInit {
 
       if(color2 == 1) {
 
-        colorT2 = "black";
-        color22.style.display= "block"
-        color22.innerHTML = "black"
-        color22.style.color = "black"
+        colorT1 = "black";
+        color11.style.display= "block"
+        color11.innerHTML = "black"
+        color11.style.backgroundColor= "black"
+        color11.style.color = "black"
         console.log("color2" , colorT2)
       } if(color2 == 2) {
 
-        colorT2 = "pink";
+        colorT2 = "purple";
         color22.style.display= "block"
-        color22.innerHTML = "pink"
-        color22.style.color = "pink"
+        color22.innerHTML = "purple"
+        color22.style.backgroundColor= "purple"
+        color22.style.color = "purple"
         console.log("color2" , colorT2)
       
 
     } if(color2 == 3) {
 
-      colorT2 = "purple";
-      color22.style.display= "block"
-      color22.innerHTML = "purple"
-      color22.style.color = "purple"
+      colorT3 = "pink";
+      color33.style.display= "block"
+      color33.innerHTML = "pink"
+      color33.style.backgroundColor= "pink"
+      color33.style.color = "pink"
       console.log("color2" , colorT2)
     }
 
@@ -402,17 +444,19 @@ export class GameComponent implements OnInit {
 
     if(color3 == 1) {
 
-      colorT3 = "pink";
-      color33.style.display= "block"
-      color33.innerHTML = "pink"
-      color33.style.color = "pink"
+      colorT1 = "pink";
+      color11.style.display= "block"
+      color11.innerHTML = "pink"
+      color11.style.color = "pink"
+      color11.style.backgroundColor= "pink"
       console.log("color3" , colorT3)
     } if(color3 == 2) {
 
-      colorT3 = "black";
-      color33.style.display= "block"
-      color33.innerHTML = "purple"
-      color33.style.color = "purple"
+      colorT2 = "black";
+      color22.style.display= "block"
+      color22.innerHTML = "black"
+      color22.style.backgroundColor= "black"
+      color22.style.color = "black"
       console.log("color3" , colorT3)
     
 
@@ -420,12 +464,17 @@ export class GameComponent implements OnInit {
 
     colorT3 = "purple";
     color33.style.display= "block"
-    color33.innerHTML = "black"
-    color33.style.color = "black"
+    color33.innerHTML = "purple"
+    color33.style.backgroundColor= "purple"
+    color33.style.color = "purple"
     console.log("color3" , colorT3)
   }
+
         
       }, 800);
+
+
+
 
       setTimeout(() => {
 
@@ -440,23 +489,26 @@ export class GameComponent implements OnInit {
           colorT1 = "purple";
           color11.style.display= "block"
           color11.innerHTML = "purple"
+          color11.style.backgroundColor= "purple"
           color11.style.color = "purple"
           console.log("color1" , colorT1)
         } if(color1 == 2) {
 
-          colorT1 = "pink";
-          color11.style.display= "block"
-          color11.innerHTML = "pink"
-          color11.style.color = "pink"
+          colorT2 = "pink";
+          color22.style.display= "block"
+          color22.innerHTML = "pink"
+          color22.style.backgroundColor= "pink"
+          color22.style.color = "pink"
           console.log("color1" , colorT1)
         
 
       } if(color1 == 3) {
 
-        colorT1 = "black";
-        color11.style.display= "block"
-        color11.innerHTML = "black"
-        color11.style.color = "black"
+        colorT3 = "black";
+        color33.style.display= "block"
+        color33.innerHTML = "black"
+        color33.style.backgroundColor= "black"
+        color33.style.color = "black"
         console.log("color1" , colorT1)
       }
 
@@ -466,26 +518,29 @@ export class GameComponent implements OnInit {
 
       if(color2 == 1) {
 
-        colorT2 = "black";
-        color22.style.display= "block"
-        color22.innerHTML = "black"
-        color22.style.color = "black"
+        colorT1 = "black";
+        color11.style.display= "block"
+        color11.innerHTML = "black"
+        color11.style.backgroundColor= "black"
+        color11.style.color = "black"
         console.log("color2" , colorT2)
       } if(color2 == 2) {
 
-        colorT2 = "pink";
+        colorT2 = "purple";
         color22.style.display= "block"
-        color22.innerHTML = "pink"
-        color22.style.color = "pink"
+        color22.innerHTML = "purple"
+        color22.style.backgroundColor= "purple"
+        color22.style.color = "purple"
         console.log("color2" , colorT2)
       
 
     } if(color2 == 3) {
 
-      colorT2 = "purple";
-      color22.style.display= "block"
-      color22.innerHTML = "purple"
-      color22.style.color = "purple"
+      colorT3 = "pink";
+      color33.style.display= "block"
+      color33.innerHTML = "pink"
+      color33.style.backgroundColor= "pink"
+      color33.style.color = "pink"
       console.log("color2" , colorT2)
     }
 
@@ -496,17 +551,19 @@ export class GameComponent implements OnInit {
 
     if(color3 == 1) {
 
-      colorT3 = "pink";
-      color33.style.display= "block"
-      color33.innerHTML = "pink"
-      color33.style.color = "pink"
+      colorT1 = "pink";
+      color11.style.display= "block"
+      color11.innerHTML = "pink"
+      color11.style.color = "pink"
+      color11.style.backgroundColor= "pink"
       console.log("color3" , colorT3)
     } if(color3 == 2) {
 
-      colorT3 = "black";
-      color33.style.display= "block"
-      color33.innerHTML = "purple"
-      color33.style.color = "purple"
+      colorT2 = "black";
+      color22.style.display= "block"
+      color22.innerHTML = "black"
+      color22.style.backgroundColor= "black"
+      color22.style.color = "black"
       console.log("color3" , colorT3)
     
 
@@ -514,8 +571,9 @@ export class GameComponent implements OnInit {
 
     colorT3 = "purple";
     color33.style.display= "block"
-    color33.innerHTML = "black"
-    color33.style.color = "black"
+    color33.innerHTML = "purple"
+    color33.style.backgroundColor= "purple"
+    color33.style.color = "purple"
     console.log("color3" , colorT3)
   }
         
