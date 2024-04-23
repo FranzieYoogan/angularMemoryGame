@@ -24,20 +24,168 @@
 .color1 {
 
     display: none;
-    color: black;
+    width: 150px;
+    padding: 10px;
+    height: 30vh;
+    border-radius: 40px;
 }
 
 .color2 {
 
     display: none;
-    color: black;
+    width: 150px;
+    padding: 10px;
+    height: 30vh;
+    border-radius: 40px;
 }
 
 .color3 {
 
     display: none;
+    width: 150px;
+    padding: 10px;
+    height: 30vh;
+    border-radius: 40px;
   
 }
+
+
+@media only screen and (width: 400px) {
+    .color1 {
+
+        display: none;
+        width: 100px;
+        padding: 10px;
+        height: 20vh;
+        border-radius: 40px;
+    }
+    
+    .color2 {
+    
+        display: none;
+        width: 100px;
+        padding: 10px;
+        height: 20vh;
+        border-radius: 40px;
+    }
+    
+    .color3 {
+    
+        display: none;
+        width: 100px;
+        padding: 10px;
+        height: 20vh;
+        border-radius: 40px;
+      
+    }
+    
+  }
+
+  @media only screen and (width: 375px) {
+
+  
+    
+    .color1 {
+
+        display: none;
+        width: 100px;
+        padding: 10px;
+        height: 20vh;
+        border-radius: 40px;
+    }
+    
+    .color2 {
+    
+        display: none;
+        width: 100px;
+        padding: 10px;
+        height: 20vh;
+        border-radius: 40px;
+    }
+    
+    .color3 {
+    
+        display: none;
+        width: 100px;
+        padding: 10px;
+        height: 20vh;
+        border-radius: 40px;
+      
+    }
+    
+  }
+
+
+  @media only screen and (width: 425px) {
+
+  
+    
+    .color1 {
+
+        display: none;
+        width: 100px;
+        padding: 10px;
+        height: 20vh;
+        border-radius: 40px;
+    }
+    
+    .color2 {
+    
+        display: none;
+        width: 100px;
+        padding: 10px;
+        height: 20vh;
+        border-radius: 40px;
+    }
+    
+    .color3 {
+    
+        display: none;
+        width: 100px;
+        padding: 10px;
+        height: 20vh;
+        border-radius: 40px;
+      
+    }
+    
+  }
+
+  @media only screen and (width: 320px) {
+
+  
+    
+    .color1 {
+
+        display: none;
+        width: 80px;
+        font-size: 15px;
+        padding: 30px;
+        height: 20vh;
+        border-radius: 40px;
+    }
+    
+    .color2 {
+    
+        display: none;
+        width: 80px;
+        font-size: 15px;
+        padding: 30px;
+        height: 20vh;
+        border-radius: 40px;
+    }
+    
+    .color3 {
+    
+        display: none;
+        width: 80px;
+        font-size: 15px;
+        padding: 30px;
+        height: 20vh;
+        border-radius: 40px;
+      
+    }
+    
+  }
 
 .containerColors {
 
