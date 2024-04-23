@@ -20,3 +20,29 @@
     border: 1px solid transparent !important;
     box-shadow: 0px 0px 4px 2px pink !important;
 }
+
+.color1 {
+
+    display: none;
+    color: black;
+}
+
+.color2 {
+
+    display: none;
+    color: black;
+}
+
+.color3 {
+
+    display: none;
+    color: black;
+}
+
+.containerColors {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+gap: 2em;
+}
