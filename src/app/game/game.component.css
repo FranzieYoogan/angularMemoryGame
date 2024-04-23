@@ -24,6 +24,7 @@
    margin-left: 1em;
    border: 2px solid black !important;
    font-size: 15px;
+   transition: 1s !important;
 }
 
 .btnAnswer:hover {
