@@ -36,13 +36,25 @@
     <div>
         
 
-          <h1 style="textAlign: center">Enter your answer</h1>
+        <div style="display:flex ; justifyContent: center; marginTop: 1em;">
+            <h1 style="textAlign: center">Enter your answer</h1>  
 
-          <div>
+            <div style="position:relative; top: 0.5em;">
+                   <button type="button"  (click)="answer()" class="btnAnswer btn btn-dark">Answer</button>
+            </div>
+          
+        </div>
+          
+
+          <div style="marginTop: 2em" class="containerInput">
               <input type="text" id="answerColor1" class="answerColor1" value="" placeholder = "color1">
           <input type="text" id="answerColor2" class="answerColor2" value="" placeholder = "color2">
           <input type="text" id="answerColor3" class="answerColor3" value="" placeholder = "color3">
           </div>
+
+            
+   
+
             </div>
     </div>
 

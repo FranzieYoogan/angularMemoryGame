@@ -593,6 +593,11 @@ export class GameComponent implements OnInit {
 
 
     }
+
+    answer() {
+
+      
+    }
   
 
   
