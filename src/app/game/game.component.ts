@@ -34,6 +34,8 @@ export class GameComponent implements OnInit {
 
     colorsStart() {
 
+      const hideAnswer:any = document.getElementById('hideAnswer')
+
       const color11:any = document.getElementById('color1')
 
       const color22:any = document.getElementById('color2')
@@ -45,7 +47,7 @@ export class GameComponent implements OnInit {
       const start:any = document.getElementById('start')
 
       setTimeout(() => {
-
+        hideAnswer.style.visibility = "visible"
         answerContainer.style.display = "flex";
         start.innerHTML = "RESET COLORS"
 
@@ -604,10 +606,18 @@ export class GameComponent implements OnInit {
         
       }, 1000);
 
+      setTimeout(() => {
+
+        hideAnswer.style.visibility = "hidden"
+
+      }, 1200);
+
 
     }
 
     answer() {
+
+      const hideAnswer:any = document.getElementById('hideAnswer')
 
       const right:any = document.getElementById('right')
 
@@ -628,7 +638,7 @@ export class GameComponent implements OnInit {
       
 
       if(answerColor1.value == color11.style.backgroundColor && answerColor2.value == color22.style.backgroundColor && answerColor3.value == color33.style.backgroundColor) {
-
+        hideAnswer.style.visibility = "visible"
         right.innerHTML = "CORRECT"
         console.log('CORRECT')
 
@@ -638,7 +648,7 @@ export class GameComponent implements OnInit {
         }, 2000);
 
       } else {
-
+        hideAnswer.style.visibility = "visible"
         setTimeout(() => {
           window.location.href = "http://localhost:4200/game"
           
