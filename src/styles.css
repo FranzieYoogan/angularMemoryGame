@@ -5,3 +5,12 @@ body {
     background-size: 100%;
 
 }
+
+@media only screen and (width: 400px) {
+    body {
+
+        background: url('/assets/img/wallpaper/brain.webp');
+        background-size: 150%;
+    
+    }
+  }

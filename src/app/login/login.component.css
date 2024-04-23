@@ -35,6 +35,15 @@ text-align: center;
 
 }
 
+@media only screen and (width: 400px) {
+    .containerItems {
+
+  
+        margin-top: 5.7em;
+    
+    }
+  }
+
 input {
 
     border: 2px solid black !important;
