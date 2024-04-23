@@ -15,12 +15,17 @@
 .logged {
 
 display: none;
+color: green;
+font-weight: 900;
+text-align: center;
+
 }
 
 .error {
 
     display: none;
-
+    color: red;
+    font-weight: 900;
 }
 
 .containerItems {
