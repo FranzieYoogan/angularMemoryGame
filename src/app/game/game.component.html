@@ -14,7 +14,7 @@
     <div>
         
    
-    <div style="display:flex; gap: 1em">
+    <div style="display:flex; justifyContent: center; gap: 1em">
         
 
     <div>
@@ -32,7 +32,18 @@
 
          
     <div id="answerContainer" class="answerContainer">
-          <h1>Enter your answer</h1>
+
+    <div>
+        
+
+          <h1 style="textAlign: center">Enter your answer</h1>
+
+          <div>
+              <input type="text" id="answerColor1" class="answerColor1" value="" placeholder = "color1">
+          <input type="text" id="answerColor2" class="answerColor2" value="" placeholder = "color2">
+          <input type="text" id="answerColor3" class="answerColor3" value="" placeholder = "color3">
+          </div>
+            </div>
     </div>
 
 
@@ -49,7 +60,7 @@
 
 
     <div>
-  
+
         <button type="button" id="start" (click)="colorsStart()" class="btnStartColors btn btn-dark">START THOSE COLORS</button>
     </div>
 

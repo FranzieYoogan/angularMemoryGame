@@ -216,3 +216,73 @@ gap: 2em;
     display: none;
 
 }
+
+.answerContainer2 {
+
+    display: flex;
+}
+
+
+.answerColor1 {
+
+    margin-left: 1em;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 1s !important;
+    color: pink;
+    font-weight: 900;
+    text-align: center;
+}   
+
+
+
+.answerColor2 {
+
+    margin-left: 1em;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 1s !important;
+    color: pink;
+    font-weight: 900;
+    text-align: center;
+}
+
+.answerColor3 {
+
+    margin-left: 1em;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 1s !important;
+    color: pink;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+.answerColor1:hover, .answerColor1:active, .answerColor1:focus {
+
+    margin-left: 1em;
+    border: 2px solid transparent !important;
+    outline: 2px solid transparent !important;
+    box-shadow: 0px 0px 4px 2px pink;
+    border-radius: 10px;
+} 
+
+.answerColor2:hover, .answerColor2:active, .answerColor2:focus {
+
+    margin-left: 1em;
+    border: 2px solid transparent !important;
+    outline: 2px solid transparent !important;
+    box-shadow: 0px 0px 4px 2px pink;
+    border-radius: 10px;
+} 
+
+
+.answerColor3:hover, .answerColor3:active, .answerColor3:focus {
+
+    margin-left: 1em;
+    border: 2px solid transparent !important;
+    outline: 2px solid transparent !important;
+    box-shadow: 0px 0px 4px 2px pink;
+    border-radius: 10px;
+} 
