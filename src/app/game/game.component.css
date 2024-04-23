@@ -10,6 +10,7 @@
 
     background-color: pink !important;
     font-weight: 900 !important;
+    transition: 1s !important;
 
 }
 
@@ -161,7 +162,7 @@
         font-size: 15px;
         padding: 30px;
         height: 20vh;
-        border-radius: 40px;
+        border-radius: 30px;
     }
     
     .color2 {
@@ -171,7 +172,7 @@
         font-size: 15px;
         padding: 30px;
         height: 20vh;
-        border-radius: 40px;
+        border-radius: 30px;
     }
     
     .color3 {
@@ -181,7 +182,7 @@
         font-size: 15px;
         padding: 30px;
         height: 20vh;
-        border-radius: 40px;
+        border-radius: 30px;
       
     }
     
@@ -286,3 +287,97 @@ gap: 2em;
     box-shadow: 0px 0px 4px 2px pink;
     border-radius: 10px;
 } 
+
+
+
+@media only screen and (width: 400px) {
+    .answerColor1 {
+
+        width: 100px;
+    }   
+
+    .answerColor2 {
+
+        width: 100px;
+    }   
+
+    .answerColor3 {
+
+        width: 100px;
+    }   
+
+}
+
+@media only screen and (width: 425px) {
+    .answerColor1 {
+
+        width: 120px;
+    }   
+
+    .answerColor2 {
+
+        width: 120px;
+    }   
+
+    .answerColor3 {
+
+        width: 120px;
+    }   
+
+}
+
+
+@media only screen and (width: 375px) {
+    .answerColor1 {
+
+        width: 100px;
+    }   
+
+    .answerColor2 {
+
+        width: 100px;
+    }   
+
+    .answerColor3 {
+
+        width: 100px;
+    }   
+
+}
+
+
+@media only screen and (width: 320px) {
+    .answerColor1 {
+
+        width: 70px;
+    }   
+
+    .answerColor2 {
+
+        width: 70px;
+    }   
+
+    .answerColor3 {
+
+        width: 70px;
+    }   
+
+}
+
+@media only screen and (width: 554px) {
+    .answerColor1 {
+
+        width: 150px;
+    }   
+
+    .answerColor2 {
+
+        width: 150px;
+    }   
+
+    .answerColor3 {
+
+        width: 150px;
+    }   
+
+}

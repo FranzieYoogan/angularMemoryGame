@@ -26,6 +26,19 @@
     transition: 1s;
 }
 
+
+
+@media only screen and (width: 320px) {
+ 
+
+    .logout {
+
+        font-size: 15px;
+    }
+
+
+}
+
 .logout:hover {
 
 transform: scale(1.2);
