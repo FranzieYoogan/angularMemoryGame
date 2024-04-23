@@ -419,3 +419,15 @@ gap: 2em;
     }   
 
 }
+
+
+/* ALERT */
+
+.right {
+
+    color: green;
+    font-weight: 900;
+    position: absolute;
+    bottom: 8em;
+
+}

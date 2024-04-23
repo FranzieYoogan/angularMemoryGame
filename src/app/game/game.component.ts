@@ -12,6 +12,10 @@ export class GameComponent implements OnInit {
 
   private isLocalStorageAvailable = typeof localStorage !== 'undefined';
 
+  colorT1:any = ""
+  colorT2:any = ""
+  colorT3:any = ""
+
   ngOnInit(): void {
 
     const localstorage:any = document.getElementById('localstorage')
@@ -499,6 +503,7 @@ export class GameComponent implements OnInit {
         if(color1 == 1) {
 
           colorT1 = "purple";
+          this.colorT1 = colorT1
           color11.style.display= "block"
           color11.innerHTML = "purple"
           color11.style.backgroundColor= "purple"
@@ -507,6 +512,7 @@ export class GameComponent implements OnInit {
         } if(color1 == 2) {
 
           colorT2 = "pink";
+          this.colorT2 = colorT2
           color22.style.display= "block"
           color22.innerHTML = "pink"
           color22.style.backgroundColor= "pink"
@@ -517,6 +523,7 @@ export class GameComponent implements OnInit {
       } if(color1 == 3) {
 
         colorT3 = "black";
+        this.colorT3 = colorT3
         color33.style.display= "block"
         color33.innerHTML = "black"
         color33.style.backgroundColor= "black"
@@ -531,6 +538,7 @@ export class GameComponent implements OnInit {
       if(color2 == 1) {
 
         colorT1 = "black";
+        this.colorT1 = colorT1
         color11.style.display= "block"
         color11.innerHTML = "black"
         color11.style.backgroundColor= "black"
@@ -539,6 +547,7 @@ export class GameComponent implements OnInit {
       } if(color2 == 2) {
 
         colorT2 = "purple";
+        this.colorT2 = colorT2
         color22.style.display= "block"
         color22.innerHTML = "purple"
         color22.style.backgroundColor= "purple"
@@ -549,6 +558,7 @@ export class GameComponent implements OnInit {
     } if(color2 == 3) {
 
       colorT3 = "pink";
+      this.colorT3 = colorT3
       color33.style.display= "block"
       color33.innerHTML = "pink"
       color33.style.backgroundColor= "pink"
@@ -564,6 +574,7 @@ export class GameComponent implements OnInit {
     if(color3 == 1) {
 
       colorT1 = "pink";
+      this.colorT1 = colorT1
       color11.style.display= "block"
       color11.innerHTML = "pink"
       color11.style.color = "pink"
@@ -572,6 +583,7 @@ export class GameComponent implements OnInit {
     } if(color3 == 2) {
 
       colorT2 = "black";
+      this.colorT2 = colorT2
       color22.style.display= "block"
       color22.innerHTML = "black"
       color22.style.backgroundColor= "black"
@@ -582,6 +594,7 @@ export class GameComponent implements OnInit {
   } if(color3 == 3) {
 
     colorT3 = "purple";
+    this.colorT3 = colorT3
     color33.style.display= "block"
     color33.innerHTML = "purple"
     color33.style.backgroundColor= "purple"
@@ -596,7 +609,48 @@ export class GameComponent implements OnInit {
 
     answer() {
 
+      const right:any = document.getElementById('right')
+
+      const color11:any = document.getElementById('color1')
+
+      const color22:any = document.getElementById('color2')
+
+      const color33:any = document.getElementById('color3')
+
+      const answerColor1:any = document.getElementById('answerColor1')
+
+      const answerColor2:any = document.getElementById('answerColor2')
+
+      const answerColor3:any = document.getElementById('answerColor3')
+      console.log(color11.style.backgroundColor)
+      console.log(color22.style.backgroundColor)
+      console.log(color33.style.backgroundColor)
       
+
+      if(answerColor1.value == color11.style.backgroundColor && answerColor2.value == color22.style.backgroundColor && answerColor3.value == color33.style.backgroundColor) {
+
+        right.innerHTML = "CORRECT"
+        console.log('CORRECT')
+
+        setTimeout(() => {
+          window.location.href = "http://localhost:4200/game"
+          
+        }, 2000);
+
+      } else {
+
+        setTimeout(() => {
+          window.location.href = "http://localhost:4200/game"
+          
+        }, 2000);
+
+        right.innerHTML = "INCORRECT"
+        right.style.color = "red"
+        console.log('CORRECT')
+      }
+
+
+
     }
   
 
