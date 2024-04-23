@@ -36,6 +36,18 @@ export class GameComponent implements OnInit {
 
       const color33:any = document.getElementById('color3')
 
+      const answerContainer:any = document.getElementById('answerContainer')
+
+      const start:any = document.getElementById('start')
+
+      setTimeout(() => {
+
+        answerContainer.style.display = "flex";
+        start.innerHTML = "RESET COLORS"
+
+      }, 300);
+    
+
 
       let color1:any = 1;
 

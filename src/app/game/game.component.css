@@ -205,3 +205,14 @@ gap: 2em;
     
 
 }
+
+
+/* ANSWER */
+
+.answerContainer {
+
+    display: flex;
+    justify-content: center;
+    display: none;
+
+}
