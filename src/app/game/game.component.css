@@ -403,6 +403,13 @@ gap: 2em;
 }
 
 @media only screen and (width: 554px) {
+
+    .btnStartColors {
+
+        position: relative;
+        bottom: 3em;
+    }
+
     .answerColor1 {
 
         width: 150px;
@@ -431,3 +438,13 @@ gap: 2em;
     bottom: 8em;
 
 }
+
+@media only screen and (width: 768px) {
+
+    .btnStartColors {
+
+        position: relative;
+        bottom: 3em;
+    }
+
+    
