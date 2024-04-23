@@ -49,11 +49,13 @@ export class GameComponent implements OnInit {
 
       let colorT3 = ""
 
-     color1 =   Math.floor((Math.random() * 4));
+      setTimeout(() => {
 
-     color2 =   Math.floor((Math.random() * 4));
+        color1 =   Math.floor((Math.random() * 4));
 
-     color3 =   Math.floor((Math.random() * 4));
+        color2 =   Math.floor((Math.random() * 4));
+   
+        color3 =   Math.floor((Math.random() * 4));
 
         if(color1 == 1) {
 
@@ -138,6 +140,386 @@ export class GameComponent implements OnInit {
     color33.style.color = "black"
     console.log("color3" , colorT3)
   }
+        
+      }, 300);
+
+      setTimeout(() => {
+
+        color1 =   Math.floor((Math.random() * 4));
+
+        color2 =   Math.floor((Math.random() * 4));
+   
+        color3 =   Math.floor((Math.random() * 4));
+
+        if(color1 == 1) {
+
+          colorT1 = "purple";
+          color11.style.display= "block"
+          color11.innerHTML = "purple"
+          color11.style.color = "purple"
+          console.log("color1" , colorT1)
+        } if(color1 == 2) {
+
+          colorT1 = "pink";
+          color11.style.display= "block"
+          color11.innerHTML = "pink"
+          color11.style.color = "pink"
+          console.log("color1" , colorT1)
+        
+
+      } if(color1 == 3) {
+
+        colorT1 = "black";
+        color11.style.display= "block"
+        color11.innerHTML = "black"
+        color11.style.color = "black"
+        console.log("color1" , colorT1)
+      }
+
+
+
+
+
+      if(color2 == 1) {
+
+        colorT2 = "black";
+        color22.style.display= "block"
+        color22.innerHTML = "black"
+        color22.style.color = "black"
+        console.log("color2" , colorT2)
+      } if(color2 == 2) {
+
+        colorT2 = "pink";
+        color22.style.display= "block"
+        color22.innerHTML = "pink"
+        color22.style.color = "pink"
+        console.log("color2" , colorT2)
+      
+
+    } if(color2 == 3) {
+
+      colorT2 = "purple";
+      color22.style.display= "block"
+      color22.innerHTML = "purple"
+      color22.style.color = "purple"
+      console.log("color2" , colorT2)
+    }
+
+
+
+
+
+
+    if(color3 == 1) {
+
+      colorT3 = "pink";
+      color33.style.display= "block"
+      color33.innerHTML = "pink"
+      color33.style.color = "pink"
+      console.log("color3" , colorT3)
+    } if(color3 == 2) {
+
+      colorT3 = "black";
+      color33.style.display= "block"
+      color33.innerHTML = "purple"
+      color33.style.color = "purple"
+      console.log("color3" , colorT3)
+    
+
+  } if(color3 == 3) {
+
+    colorT3 = "purple";
+    color33.style.display= "block"
+    color33.innerHTML = "black"
+    color33.style.color = "black"
+    console.log("color3" , colorT3)
+  }
+        
+      }, 500);
+
+      setTimeout(() => {
+
+        color1 =   Math.floor((Math.random() * 4));
+
+        color2 =   Math.floor((Math.random() * 4));
+   
+        color3 =   Math.floor((Math.random() * 4));
+
+        if(color1 == 1) {
+
+          colorT1 = "purple";
+          color11.style.display= "block"
+          color11.innerHTML = "purple"
+          color11.style.color = "purple"
+          console.log("color1" , colorT1)
+        } if(color1 == 2) {
+
+          colorT1 = "pink";
+          color11.style.display= "block"
+          color11.innerHTML = "pink"
+          color11.style.color = "pink"
+          console.log("color1" , colorT1)
+        
+
+      } if(color1 == 3) {
+
+        colorT1 = "black";
+        color11.style.display= "block"
+        color11.innerHTML = "black"
+        color11.style.color = "black"
+        console.log("color1" , colorT1)
+      }
+
+
+
+
+
+      if(color2 == 1) {
+
+        colorT2 = "black";
+        color22.style.display= "block"
+        color22.innerHTML = "black"
+        color22.style.color = "black"
+        console.log("color2" , colorT2)
+      } if(color2 == 2) {
+
+        colorT2 = "pink";
+        color22.style.display= "block"
+        color22.innerHTML = "pink"
+        color22.style.color = "pink"
+        console.log("color2" , colorT2)
+      
+
+    } if(color2 == 3) {
+
+      colorT2 = "purple";
+      color22.style.display= "block"
+      color22.innerHTML = "purple"
+      color22.style.color = "purple"
+      console.log("color2" , colorT2)
+    }
+
+
+
+
+
+
+    if(color3 == 1) {
+
+      colorT3 = "pink";
+      color33.style.display= "block"
+      color33.innerHTML = "pink"
+      color33.style.color = "pink"
+      console.log("color3" , colorT3)
+    } if(color3 == 2) {
+
+      colorT3 = "black";
+      color33.style.display= "block"
+      color33.innerHTML = "purple"
+      color33.style.color = "purple"
+      console.log("color3" , colorT3)
+    
+
+  } if(color3 == 3) {
+
+    colorT3 = "purple";
+    color33.style.display= "block"
+    color33.innerHTML = "black"
+    color33.style.color = "black"
+    console.log("color3" , colorT3)
+  }
+        
+      }, 700);
+
+ 
+
+      setTimeout(() => {
+
+        color1 =   Math.floor((Math.random() * 4));
+
+        color2 =   Math.floor((Math.random() * 4));
+   
+        color3 =   Math.floor((Math.random() * 4));
+
+        if(color1 == 1) {
+
+          colorT1 = "purple";
+          color11.style.display= "block"
+          color11.innerHTML = "purple"
+          color11.style.color = "purple"
+          console.log("color1" , colorT1)
+        } if(color1 == 2) {
+
+          colorT1 = "pink";
+          color11.style.display= "block"
+          color11.innerHTML = "pink"
+          color11.style.color = "pink"
+          console.log("color1" , colorT1)
+        
+
+      } if(color1 == 3) {
+
+        colorT1 = "black";
+        color11.style.display= "block"
+        color11.innerHTML = "black"
+        color11.style.color = "black"
+        console.log("color1" , colorT1)
+      }
+
+
+
+
+
+      if(color2 == 1) {
+
+        colorT2 = "black";
+        color22.style.display= "block"
+        color22.innerHTML = "black"
+        color22.style.color = "black"
+        console.log("color2" , colorT2)
+      } if(color2 == 2) {
+
+        colorT2 = "pink";
+        color22.style.display= "block"
+        color22.innerHTML = "pink"
+        color22.style.color = "pink"
+        console.log("color2" , colorT2)
+      
+
+    } if(color2 == 3) {
+
+      colorT2 = "purple";
+      color22.style.display= "block"
+      color22.innerHTML = "purple"
+      color22.style.color = "purple"
+      console.log("color2" , colorT2)
+    }
+
+
+
+
+
+
+    if(color3 == 1) {
+
+      colorT3 = "pink";
+      color33.style.display= "block"
+      color33.innerHTML = "pink"
+      color33.style.color = "pink"
+      console.log("color3" , colorT3)
+    } if(color3 == 2) {
+
+      colorT3 = "black";
+      color33.style.display= "block"
+      color33.innerHTML = "purple"
+      color33.style.color = "purple"
+      console.log("color3" , colorT3)
+    
+
+  } if(color3 == 3) {
+
+    colorT3 = "purple";
+    color33.style.display= "block"
+    color33.innerHTML = "black"
+    color33.style.color = "black"
+    console.log("color3" , colorT3)
+  }
+        
+      }, 800);
+
+      setTimeout(() => {
+
+        color1 =   Math.floor((Math.random() * 4));
+
+        color2 =   Math.floor((Math.random() * 4));
+   
+        color3 =   Math.floor((Math.random() * 4));
+
+        if(color1 == 1) {
+
+          colorT1 = "purple";
+          color11.style.display= "block"
+          color11.innerHTML = "purple"
+          color11.style.color = "purple"
+          console.log("color1" , colorT1)
+        } if(color1 == 2) {
+
+          colorT1 = "pink";
+          color11.style.display= "block"
+          color11.innerHTML = "pink"
+          color11.style.color = "pink"
+          console.log("color1" , colorT1)
+        
+
+      } if(color1 == 3) {
+
+        colorT1 = "black";
+        color11.style.display= "block"
+        color11.innerHTML = "black"
+        color11.style.color = "black"
+        console.log("color1" , colorT1)
+      }
+
+
+
+
+
+      if(color2 == 1) {
+
+        colorT2 = "black";
+        color22.style.display= "block"
+        color22.innerHTML = "black"
+        color22.style.color = "black"
+        console.log("color2" , colorT2)
+      } if(color2 == 2) {
+
+        colorT2 = "pink";
+        color22.style.display= "block"
+        color22.innerHTML = "pink"
+        color22.style.color = "pink"
+        console.log("color2" , colorT2)
+      
+
+    } if(color2 == 3) {
+
+      colorT2 = "purple";
+      color22.style.display= "block"
+      color22.innerHTML = "purple"
+      color22.style.color = "purple"
+      console.log("color2" , colorT2)
+    }
+
+
+
+
+
+
+    if(color3 == 1) {
+
+      colorT3 = "pink";
+      color33.style.display= "block"
+      color33.innerHTML = "pink"
+      color33.style.color = "pink"
+      console.log("color3" , colorT3)
+    } if(color3 == 2) {
+
+      colorT3 = "black";
+      color33.style.display= "block"
+      color33.innerHTML = "purple"
+      color33.style.color = "purple"
+      console.log("color3" , colorT3)
+    
+
+  } if(color3 == 3) {
+
+    colorT3 = "purple";
+    color33.style.display= "block"
+    color33.innerHTML = "black"
+    color33.style.color = "black"
+    console.log("color3" , colorT3)
+  }
+        
+      }, 1000);
 
 
     }
